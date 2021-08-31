@@ -3,6 +3,6 @@ import { App } from "./App"
 
 test("Renders the date text", () => {
   render(<App />)
-  const linkElement = screen.getByText(/Today is/i)
+  const linkElement = screen.getByText(/Calculate a String/i)
   expect(linkElement).toBeInTheDocument()
 })
